@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Seshanth@9852"/>
+  <parameter name="url" value="https://profile.w3schools.com/"/>
+  <parameter name="email" value="seshanthrakesh1901@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.practiceMe.testNg.W3Schools_Homepage">
+        <methods>
+          <include name="close_browser"/>
+          <include name="Launch_Browser"/>
+          <include name="profile_build"/>
+        </methods>
+      </class> <!-- com.practiceMe.testNg.W3Schools_Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

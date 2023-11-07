@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="task23"></include>
+		</run>
+	</groups>
+	<test  name="Test">
+		<classes>
+			<class name="com.Task24.Answers.Homepage"></class>
+			<class name="com.Task24.Answers.SignupPage"></class>
+			<class name="com.Task24.Answers.LoginPage"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
