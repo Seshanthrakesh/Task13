@@ -1,52 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T17:55:28 IST" name="Suite" finished-at="2023-11-07T17:55:44 IST" duration-ms="15493">
+  <suite started-at="2023-11-27T20:18:03 IST" name="Default suite" finished-at="2023-11-27T20:20:04 IST" duration-ms="120253">
     <groups>
     </groups>
-    <test started-at="2023-11-07T17:55:28 IST" name="Test" finished-at="2023-11-07T17:55:44 IST" duration-ms="15493">
-      <class name="com.practiceMe.testNg.W3Schools_Homepage">
-        <test-method is-config="true" signature="Launch_Browser(java.lang.String)[pri:0, instance:com.practiceMe.testNg.W3Schools_Homepage@533b266e]" started-at="2023-11-07T17:54:45 IST" name="Launch_Browser" finished-at="2023-11-07T17:55:28 IST" duration-ms="43561" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://profile.w3schools.com/]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-11-27T20:18:03 IST" name="Default test" finished-at="2023-11-27T20:20:04 IST" duration-ms="120253">
+      <class name="com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:06 IST" name="launchBrowser" finished-at="2023-11-27T20:18:14 IST" duration-ms="7376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launch_Browser -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.practiceMe.testNg.W3Schools_Homepage@533b266e]" started-at="2023-11-07T17:55:29 IST" name="Login" finished-at="2023-11-07T17:55:41 IST" duration-ms="12557" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchTopic(java.lang.String,java.lang.String)[pri:1, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:14 IST" name="searchTopic" data-provider="excelData" finished-at="2023-11-27T20:18:27 IST" duration-ms="12959" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[seshanthrakesh1901@gmail.com]]>
+                <![CDATA[vijay]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Seshanth@9852]]>
+                <![CDATA[ leo]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Homepage()[pri:2, instance:com.practiceMe.testNg.W3Schools_Homepage@533b266e]" started-at="2023-11-07T17:55:41 IST" name="Homepage" finished-at="2023-11-07T17:55:41 IST" duration-ms="103" status="PASS">
+        </test-method> <!-- searchTopic -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:27 IST" name="quitbrowser" finished-at="2023-11-27T20:18:32 IST" duration-ms="5489" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Homepage -->
-        <test-method signature="profile_build()[pri:3, instance:com.practiceMe.testNg.W3Schools_Homepage@533b266e]" started-at="2023-11-07T17:55:41 IST" name="profile_build" finished-at="2023-11-07T17:55:44 IST" duration-ms="2594" status="PASS">
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:32 IST" name="launchBrowser" finished-at="2023-11-27T20:18:35 IST" duration-ms="2841" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profile_build -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.practiceMe.testNg.W3Schools_Homepage@533b266e]" started-at="2023-11-07T17:55:44 IST" name="close_browser" finished-at="2023-11-07T17:55:44 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchTopic(java.lang.String,java.lang.String)[pri:1, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:35 IST" name="searchTopic" data-provider="excelData" finished-at="2023-11-27T20:18:45 IST" duration-ms="10102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ jailer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- com.practiceMe.testNg.W3Schools_Homepage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- searchTopic -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:45 IST" name="quitbrowser" finished-at="2023-11-27T20:18:50 IST" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:50 IST" name="launchBrowser" finished-at="2023-11-27T20:18:53 IST" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchTopic(java.lang.String,java.lang.String)[pri:1, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:18:53 IST" name="searchTopic" data-provider="excelData" finished-at="2023-11-27T20:19:03 IST" duration-ms="9837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ doctor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTopic -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:03 IST" name="quitbrowser" finished-at="2023-11-27T20:19:09 IST" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:09 IST" name="launchBrowser" finished-at="2023-11-27T20:19:12 IST" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="google_it(java.lang.String,java.lang.String)[pri:2, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:12 IST" name="google_it" data-provider="excelData" finished-at="2023-11-27T20:19:21 IST" duration-ms="9653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ leo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_it -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:21 IST" name="quitbrowser" finished-at="2023-11-27T20:19:27 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:27 IST" name="launchBrowser" finished-at="2023-11-27T20:19:30 IST" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="google_it(java.lang.String,java.lang.String)[pri:2, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:30 IST" name="google_it" data-provider="excelData" finished-at="2023-11-27T20:19:39 IST" duration-ms="9770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ jailer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_it -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:39 IST" name="quitbrowser" finished-at="2023-11-27T20:19:45 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:45 IST" name="launchBrowser" finished-at="2023-11-27T20:19:48 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="google_it(java.lang.String,java.lang.String)[pri:2, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:48 IST" name="google_it" data-provider="excelData" finished-at="2023-11-27T20:19:58 IST" duration-ms="10179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ doctor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_it -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx@5e0e82ae]" started-at="2023-11-27T20:19:58 IST" name="quitbrowser" finished-at="2023-11-27T20:20:04 IST" duration-ms="5605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

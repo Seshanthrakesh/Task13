@@ -17,7 +17,7 @@ public class Q4WriteExcelFile {
 	      File file =new File(".\\src\\test\\java\\com\\task13\\ExcelFiles\\Q4WriteExcelFile.xlsx");
 	      FileOutputStream fos =new FileOutputStream(file);
 	      wb.write(fos );
-		
+	      wb.close();
 	}
 
 }

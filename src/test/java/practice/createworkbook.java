@@ -11,7 +11,7 @@ public class createworkbook {
 		FileOutputStream fos =new FileOutputStream(file);
 		XSSFWorkbook wb =new XSSFWorkbook();
 		wb.close();
-		
+		fos.close();
 	}
 
 }

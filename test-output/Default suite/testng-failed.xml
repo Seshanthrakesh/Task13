@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practiceMe.testNg.W3Schools_Homepage">
+      <class name="com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx">
         <methods>
-          <include name="Homepage"/>
-          <include name="close_browser"/>
-          <include name="Launch_Browser"/>
+          <include name="quitbrowser"/>
+          <include name="searchTopic" invocation-numbers="1 2"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.practiceMe.testNg.W3Schools_Homepage -->
+      </class> <!-- com.learningTestNG.ReadDataUsing_dataprovider_from_xlsx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

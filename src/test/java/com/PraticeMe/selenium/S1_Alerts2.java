@@ -1,4 +1,4 @@
-package com.Pratice.Me;
+package com.PraticeMe.selenium;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

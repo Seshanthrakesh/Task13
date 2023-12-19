@@ -3,10 +3,8 @@ package practice;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -34,6 +32,7 @@ public class WriteWb {
 		File file =new File(".\\src\\test\\java\\Writewb.xlsx");
 		FileOutputStream fos =new FileOutputStream(file);
 		wb.write(fos);
+		wb.close();
 	}
-
+	
 }

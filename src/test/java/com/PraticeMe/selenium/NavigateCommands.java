@@ -1,4 +1,4 @@
-package com.Pratice.Me;
+package com.PraticeMe.selenium;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

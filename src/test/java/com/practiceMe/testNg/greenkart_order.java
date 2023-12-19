@@ -29,7 +29,7 @@ public class greenkart_order {
 	@BeforeTest
 	public void beforeTest() {
 		System.out.println("Before Test");
-		String parentwindow=driver.getWindowHandle();
+		//String parentwindow=driver.getWindowHandle();
 
 		driver.findElement(By.xpath("//a[text()='Top Deals']")).click();
 

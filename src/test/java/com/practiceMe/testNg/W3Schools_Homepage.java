@@ -22,7 +22,7 @@ public class W3Schools_Homepage {
 		driver=new ChromeDriver();
 		driver.navigate().to(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); 
 
 	}
 	@Test(enabled= false,priority = 4)

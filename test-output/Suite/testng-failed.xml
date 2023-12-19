@@ -6,13 +6,13 @@
   <parameter name="email" value="seshanthrakesh1901@gmail.com"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.practiceMe.testNg.W3Schools_Homepage">
+      <class name="com.practiceMe.testNg.W3Schools_LearnJava">
         <methods>
-          <include name="close_browser"/>
+          <include name="Quit_Browser"/>
+          <include name="browse_Tutorials"/>
           <include name="Launch_Browser"/>
-          <include name="profile_build"/>
         </methods>
-      </class> <!-- com.practiceMe.testNg.W3Schools_Homepage -->
+      </class> <!-- com.practiceMe.testNg.W3Schools_LearnJava -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,7 +1,6 @@
 package com.task13.Excel;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -33,7 +32,7 @@ public class Q3WriteDataToExcel {
 	      File file =new File(".\\src\\test\\java\\com\\task13\\ExcelFiles\\Q3WriteDataToExcel.xlsx");
 	      FileOutputStream fos =new FileOutputStream(file);
 	      wb.write(fos );
-		
+	      wb.close();
 	}
 
 }

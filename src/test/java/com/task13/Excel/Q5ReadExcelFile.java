@@ -26,9 +26,9 @@ public class Q5ReadExcelFile {
 			}
 			System.out.println();
 		}
-				
+		wb.close();		
 	}
-
+	
 }
 
 		
